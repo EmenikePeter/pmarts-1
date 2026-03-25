@@ -1,4 +1,4 @@
-# PMARTS - Pi Marketplace Trust System
+# PMARTS - Pi Escrow Trust System
 
 PMARTS protects Pi users with secure escrow, reducing fraud and building trust in peer-to-peer deals.
 
