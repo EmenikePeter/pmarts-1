@@ -1,0 +1,43 @@
+{
+  "cli": {
+    "version": ">= 17.0.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_SUPABASE_URL": "https://zlzepcizwditfxckyuwl.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpsemVwY2l6d2RpdGZ4Y2t5dXdsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzI2ODUyNjgsImV4cCI6MjA4ODI2MTI2OH0.ITeotKblFmYymMWC32L6UvE1OmWUhulrn9asSb8-0QU",
+        "EXPO_PUBLIC_API_URL": "http://localhost:4000",
+        "EXPO_PUBLIC_PI_SANDBOX": "true"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_SUPABASE_URL": "https://zlzepcizwditfxckyuwl.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpsemVwY2l6d2RpdGZ4Y2t5dXdsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzI2ODUyNjgsImV4cCI6MjA4ODI2MTI2OH0.ITeotKblFmYymMWC32L6UvE1OmWUhulrn9asSb8-0QU",
+        "EXPO_PUBLIC_API_URL": "https://pmarts.vercel.app",
+        "EXPO_PUBLIC_PI_SANDBOX": "true"
+      }
+    },
+    "production": {
+      "env": {
+        "EXPO_PUBLIC_SUPABASE_URL": "https://zlzepcizwditfxckyuwl.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpsemVwY2l6d2RpdGZ4Y2t5dXdsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzI2ODUyNjgsImV4cCI6MjA4ODI2MTI2OH0.ITeotKblFmYymMWC32L6UvE1OmWUhulrn9asSb8-0QU",
+        "EXPO_PUBLIC_API_URL": "https://pmarts.vercel.app",
+        "EXPO_PUBLIC_PI_SANDBOX": "false"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

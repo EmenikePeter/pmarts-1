@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "PMARTS",
+    "slug": "pmarts",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "pmarts",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1A3D7C"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pmarts.app",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.pmarts.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#1A3D7C",
+        "foregroundImage": "./assets/images/android-icon-foreground.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-secure-store",
+      [
+        "@sentry/react-native/expo",
+        {
+          "url": "https://sentry.io/",
+          "project": "react-native-pmarts",
+          "organization": "emenike-peter"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "221afb6b-37e5-444e-9762-42c8af79ad4c"
+      }
+    },
+    "owner": "emenikepeters-organization"
+  }
+}

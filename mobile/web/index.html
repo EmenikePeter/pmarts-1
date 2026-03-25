@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PMARTS Web</title>
+    <!--
+      Vercel Speed Insights (RUM) snippet goes here.
+      1) In the Vercel Speed Insights dashboard you'll be given a small <script> snippet.
+      2) Paste that snippet directly below this comment (inside <head>).
+      3) Commit and deploy the mobile web build to your production URL.
+
+      Example (replace with the official snippet from Vercel):
+      <script async src="https://edge.speed-insights.vercel.app/v1/script.js" data-site="YOUR_SITE_ID"></script>
+
+      IMPORTANT: Use the exact snippet provided by Vercel for your project — the above line is only an example.
+    -->
+    <script>
+      // Small sanity log so you can verify this index.html is used in the web build
+      if (window && window.console) {
+        console.log('[pmarts] web index.html loaded');
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- Expo's web build will inject the bundle here -->
+  </body>
+</html>
